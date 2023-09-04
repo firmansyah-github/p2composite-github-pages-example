@@ -24,11 +24,11 @@ public class SampleHandler extends AbstractHandler {
 	 * from the application context.
 	 */
 	public Object execute(ExecutionEvent event) throws ExecutionException {
-		IWorkbenchWindow window = HandlerUtil.getActiveWorkbenchWindowChecked(event);
-		MessageDialog.openInformation(
-				window.getShell(),
-				"Plugin",
-				"Hello, Eclipse world");
+		//IWorkbenchWindow window = HandlerUtil.getActiveWorkbenchWindowChecked(event);
+		//MessageDialog.openInformation(
+		//		null,
+		//		"Plugin",
+		//		"Hello, Eclipse world");
 		return null;
 	}
 }
